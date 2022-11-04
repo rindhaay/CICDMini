@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>validateOnregister</name>
+   <tag></tag>
+   <elementGuidId>952f575c-d182-414e-be5b-6384f198e3d6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-card__title</value>
+      <webElementGuid>211c1051-2e2a-463c-973a-c30421613234</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

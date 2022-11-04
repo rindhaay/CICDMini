@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>warning</name>
+   <name>validateOnLogin</name>
    <tag></tag>
-   <elementGuidId>5a5f481a-6068-4337-916f-c4be2f54c65c</elementGuidId>
+   <elementGuidId>2c881fd8-e459-4954-a0eb-07091dafc6e6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'v-alert__content']</value>
+         <value>//*[@class = 'v-card__title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>v-alert__content</value>
-      <webElementGuid>134acb94-b0af-41f1-8730-4c762a6fb160</webElementGuid>
+      <value>v-card__title</value>
+      <webElementGuid>881dd9a9-592d-4e82-834e-4cafd3bc287d</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

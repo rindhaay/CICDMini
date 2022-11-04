@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC003</name>
+   <name>TCWA001_Register</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c4ec2373-8f10-4c07-827a-0b7baadd7c1f</testCaseGuid>
+   <testCaseGuid>7f3cdc68-575c-43ed-9ae8-faa3f9804654</testCaseGuid>
 </TestCaseEntity>

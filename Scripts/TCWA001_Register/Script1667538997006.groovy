@@ -17,3 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://alta-shop.vercel.app/auth/login')
+
+WebUI.click(findTestObject('Auth Web/registerNavigate'))
+
+WebUI.verifyElementPresent(findTestObject('Auth Web/validateOnRegister'), 0)
+
+WebUI.setText(findTestObject('Auth Web/namaLengkap'), 'Salsa')
+
+WebUI.setText(findTestObject('Auth Web/email'), 'salsa123@gmail.com')
+
+WebUI.setText(findTestObject('Auth Web/passwordRegister'), 'lalala')
+
+WebUI.click(findTestObject('Auth Web/registerButton'))
+
+WebUI.verifyElementPresent(findTestObject('Auth Web/validateOnLogin'), 0)
+
+WebUI.closeBrowser()
